@@ -1,0 +1,204 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% LAST EDITED: 9/8/15
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+
+\name{Kevin You} % Your name
+% \address{123 Broadway \\ City, State 12345} % Your address
+% \address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{(214)~264~9329 \\ kevin.you@outlook.com} % Your phone number and email
+\address{github.com/kevinyou/ \\ linkedin.com/in/kevinyou } % Github
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+    {\bf University of Texas at Austin} \hfill {\textbf{Expected Graduation Date}: May 2018} \\ 
+    Bachelor of Science in \textbf{Computer Science} \hfill \textbf{Overall GPA}: 4.0 \\
+Bachelor of Arts in \textbf{Linguistics}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{Cisco}{June 2017 - August 2017}{Software Development Intern}{Dallas, TX}
+\item Created a RESTful API for an internal form submission tool, using the Java Spring framework
+\item Converted between JSON, Java Objects, and SQL rows using Jackson and JDBC
+\item Mentored another intern with Git, REST, and Java programming
+% \item Built command line and web interfaces with user experience as a top priority
+\end{rSubsection}
+
+\begin{rSubsection}{Cvent}{May 2016 - August 2016}{Software Engineering Intern}{Austin, TX}
+\item Created RESTful applications using the Dropwizard framework for Java
+\item Wrote unit tests and documentation for legacy codebase
+\end{rSubsection}
+
+\end{rSection}
+%------------------------------------------------
+
+\begin{rSection}{Projects}
+
+\begin{rSubsection}{Competitive Programming}{Fall 2013 - Present}{}{}
+\item Wrote programs that solved math problems using various algorithmic techniques
+\item Attended Regional UIL 2014, HP CodeWars, and ACM ICPC South Regional 2014
+\item Regularly participated in various other local and online contests as a hobby
+\end{rSubsection}
+
+\begin{rSubsection}{Barrelfish Operating System}{January 2017 - May 2017}{School Project, with three group members}{}
+    \item Developed a small multicore operating system on a ARMv7 PandaBoard development board
+    \item Manipulated low-level hardware such as by accessing hardware registers for built-in LEDs
+    \item Designed a protocol for establishing and using shared memory regions across cores and processes
+    \item Designed all parts of the system (memory, I/O, IPC) with deadlock prevention in mind
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Pintos Operating System}{September 2015 - December 2015}{School Project, with three group members}{}
+	\item Built on top of a pre-existing instructional OS written in C, run on a virtual machine
+	\item Implemented virtual memory with demand paging and a multi-level indexed file system
+\end{rSubsection}
+%------------------------------------------------
+
+
+\iffalse
+\begin{rSubsection}{Shirt Exchange}{June - July 2016}{Personal Project}{}
+\item Set up a home server on a Raspberry Pi
+\item Created a simple CRUD application using Python Flask and SQLite
+\end{rSubsection}
+
+%------------------------------------------------
+\begin{rSubsection}{Twister}{May 2014}{Android Game, group of two}{}
+	\item Used Java and the Android SDK to develop a simple mobile game
+\end{rSubsection}
+%------------------------------------------------
+\fi
+
+\end{rSection}
+
+
+
+\iffalse
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{ACME, Inc}{October 2010 - Present}{Web Developer}{Palo Alto, CA}
+\item Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.
+\item Donec et mollis dolor. Praesent et diam eget libero Adobe Coldfusion egestas mattis sit amet vitae augue.
+\item Nam tincidunt congue enim, ut porta lorem Microsoft SQL lacinia consectetur.
+\item Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+\item Pellentesque auctor nisi id magna consequat JavaScript sagittis.
+\item Aliquam at massa ipsum. Quisque bash bibendum purus convallis nulla ultrices ultricies.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{AJAX Hosting}{December 2009 - October 2010}{Lead Developer}{Austin, TX}
+\item Aenean ut gravida lorem. Ut turpis felis, Perl pulvinar a semper sed, adipiscing id dolor.
+\item Curabitur dapibus enim sit amet elit pharetra tincidunt website feugiat nisl imperdiet. Ut convallis AJAX libero in urna ultrices accumsan.
+\item Cum sociis natoque penatibus et magnis dis MySQL parturient montes, nascetur ridiculus mus.
+\item In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.
+\item Nullam cursus suscipit nisi, et ultrices justo sodales nec. Fusce venenatis facilisis lectus ac semper.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{TinySoft}{January 2008 - April 2010}{Web Designer \& Developer}{Gainesville, GA}
+\item Vivamus PostgreSQL fermentum semper porta. Nunc diam velit PHP, adipiscing ut tristique vitae
+\item Maecenas convallis ullamcorper ultricies stylesheets.
+\item Quisque mi metus, unit tests CSS ornare sit amet fermentum et, tincidunt et orci.
+\item Curabitur venenatis pulvinar tellus gravida ornare. Sed et erat faucibus nunc euismod ultricies ut id
+\end{rSubsection}
+
+\end{rSection}
+\fi
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages, Proficient at & Java, Python, and C \\
+Languages, Exposure to & C++, Haskell, and SQL \\
+    Software & Git, Linux, \LaTeX
+\end{tabular}
+
+\end{rSection}
+\iffalse
+\begin{rSection}{Organizations}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Undergraduate Linguistics Society & Vice President and Tutoring Chair \\
+UT Math Club  & Member \\
+\end{tabular}
+
+\end{rSection}
+\begin{rSection}{Awards}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Recipient of Longhorn Guaranty Scholarship & Fall 2014 - Spring 2018 \\
+Recipient of Tracor/Frank McBee, Jr. Scholarship & Fall 2015 - Spring 2016 \\
+College of Liberal Arts Dean's Honor List & Spring 2015 - Spring 2016 \\
+\end{tabular}
+\end{rSection}
+\fi
+
+
+\begin{rSection}{Relevant Coursework}
+	
+	\begin{tabular}{ @{} >{\bfseries}l >{\bfseries\hspace{6ex}}l}
+		Multicore Operating Systems & Theory of Computation \\
+        Information Retrieval & Real Analysis \\
+	\end{tabular}
+	
+\end{rSection}
+
+
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
