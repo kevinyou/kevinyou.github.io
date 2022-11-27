@@ -1,1 +1,1 @@
-Reminder to Kevin: the editable resume can be found at https://docs.google.com/document/d/1QnxcZMOhzslInd0RPjEFn4UMLSGw76gXNfFHsJKk_D8/edit
+PDF was compiled from [Overleaf](https://www.overleaf.com) because I did not want to install TeX Live on my machine.
