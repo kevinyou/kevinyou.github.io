@@ -53,8 +53,10 @@
 	\textbf{dallas-alerts on \href{https://github.com/kevinyou/dallas-alerts}{GitHub}}
 	\begin{itemize}
 		\itemsep -3pt {}
-		\item Mastodon bot to share active 911 calls from City of Dallas open dataset in real-time
-        \item Written in Typescript and run on AWS Lambda every minute
+		\item Created a Mastodon bot that polls open City of Dallas data and posts details of active incidents
+		\item Followers are notified within 1 minute of an active police incident
+		\item Reduced redundant traffic to Mastodon by 95\% by adding a Redis cache
+
 	\end{itemize}
 \end{rSection}
 
