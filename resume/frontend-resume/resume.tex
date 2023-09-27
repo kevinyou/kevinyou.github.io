@@ -1,0 +1,89 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Kevin You}
+\address{(214) 264-9329 \\ Remote from Dallas, TX} 
+\address{\href{mailto:kevin.you@outlook.com}{kevin.you@outlook.com} \\ \href{https://linkedin.com/in/kevinyou}{linkedin.com/in/kevinyou} \\
+\href{www.kyouko.me}{www.kyouko.me}}
+
+\begin{document}
+
+\begin{rSection}{SUMMARY}
+
+	{Software Engineer with 5+ years of experience in full-stack development in React, NodeJS, and AWS.}
+
+\end{rSection}
+
+
+\begin{rSection}{EXPERIENCE}
+
+	\textbf{Senior Software Engineer} \hfill August 2018 -- Present\\
+	Qualtrics \hfill \textit{Remote --- formerly Seattle, WA}
+	\begin{itemize}
+		\itemsep -3pt {}
+		\item Created best practices for using Typescript for type safe frontend and backend applications
+		\item Created best practices guide for writing frontend code compatible with right-to-left (RTL) languages like Arabic
+		\item Migrated statistical models from a single machine to a job cluster, saving \$50k/yr in dedicated hardware costs
+		\item Led a team of 4 SDEs on building a new data pipeline architecture and drafted the high-level design
+		\item Created a process for documenting time spent on on-call tasks to identify the easiest tasks that would free up the most churn time
+		\item Onboarded onto the developer tools and cloud infrastructure of a newly acquired company (f.k.a. Clarabridge) to build microservices that could connect products across clouds
+		\item Set up MongoDB document change replication into an analytics database, with schema syncing and data consistency health checks
+		\item Extracted call center audio files and computed ML-backed employee performance scores for agent managers
+		\item Led multiple rounds of UI improvements to the call transcript view, including a “jump to” button and an interactive audio player
+		\item Added user mentions (@mentions) feature in a product management tool with 50\% adoption within first month of release
+        \item Built Typescript NodeJS backend services with React frontend single-page apps backed by NoSQL MongoDB.
+	\end{itemize}
+
+\iffalse
+	\textbf{Software Engineering Intern} \hfill June 2017 -- August 2017\\
+	Cisco \hfill \textit{Dallas, TX}
+	\begin{itemize}
+		\item Created a API and CLI for an internal form submission app using Java Spring
+	\end{itemize}
+
+	\textbf{Software Engineering Intern} \hfill May 2016 -- August 2016\\
+	Cvent \hfill \textit{Austin, TX}
+	\begin{itemize}
+		\item Wrote unit tests for a legacy codebase, which caught a production bug involving date calculations
+	\end{itemize}
+\fi
+\end{rSection}
+
+\begin{rSection}{PERSONAL PROJECTS}
+	\textbf{dallas-alerts on \href{https://github.com/kevinyou/dallas-alerts}{GitHub}}
+	\begin{itemize}
+		\itemsep -3pt {}
+		\item Created a Mastodon bot that polls open City of Dallas data and posts details of active incidents
+		\item Followers are notified within 1 minute of an active police incident
+		\item Reduced redundant traffic to Mastodon by 95\% by adding a Redis cache
+
+	\end{itemize}
+\end{rSection}
+
+\begin{rSection}{TECHNICAL SKILLS}
+
+	\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+		Languages & Javascript, Typescript, Java, Python, PHP                      \\
+		Frameworks & React, React Router, Redux, Vue, Remix, Express, Koa, NestJS, Jest, Vitest,                  \\
+		Backend   & MongoDB, PostgresSQL, RabbitMQ, AWS S3, AWS DynamoDB, AWS Aurora                  \\
+		Productivity & Jira, Lucidchart, Mermaid, Swagger/OpenAPI, Coda, Google Docs, GitHub, GitLab                 \\
+		Tools     & Git, Linux, Docker, Kubernetes, Vault, Consul, Nomad, Jenkins, SumoLogic, Splunk, Grafana
+	\end{tabular}\\
+
+\end{rSection}
+
+\begin{rSection}{Education}
+	{\bf B.S. in Computer Science} and B.A. in Linguistics \hfill {August 2014 -- May 2018}\\
+	University of Texas at Austin \hfill {GPA: 4.0}\\
+\end{rSection}
+
+\iffalse
+\begin{rSection}{PROJECTS}
+	\vspace{-1.25em}
+	\item \textbf{Short Project Title.} {Build a project that does something and had quantified success using A, B, and C. This project's description spans two lines and also won an award.}
+\end{rSection} 
+\fi
+
+\end{document}
