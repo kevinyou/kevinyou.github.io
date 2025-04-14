@@ -1,0 +1,32 @@
+.red {
+	/* primary computer science class */
+	color: white;
+	background-color: red;
+}
+
+.blue {
+	/* class requiring a lot of technical problem solving, either discrete math or linguistics */
+	color: white;
+	background-color: blue;
+}
+
+.yellow {
+	/* humanities class, involves a lot of reading */
+	background-color: yellow;
+}
+
+.green {
+	/* secondary computer science or math class */
+	color: white;
+	background-color: green;
+}
+
+.lightblue {
+	/* primary math class, or math-heavy computer science class */
+	background-color: lightskyblue;
+}
+.gray {
+	/* half semester class */
+	color: white;
+	background-color: gray;
+}
